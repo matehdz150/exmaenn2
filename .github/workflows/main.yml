@@ -3,7 +3,7 @@ name: Print Messages
 on:
   push:
     branches:
-      - main  # Cambia "main" por el nombre de tu rama principal si es diferente
+      - test_1
 
 jobs:
   print_messages:
