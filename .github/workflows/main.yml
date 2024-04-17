@@ -1,0 +1,20 @@
+name: Print Messages
+
+on:
+  push:
+    branches:
+      - main  # Cambia "main" por el nombre de tu rama principal si es diferente
+
+jobs:
+  print_messages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Message 1
+      run: echo "Impresión 1"
+
+    - name: Print Message 2
+      run: echo "Impresión 2"
+
+    - name: Print Message 3
+      run: echo "Impresión 3"
